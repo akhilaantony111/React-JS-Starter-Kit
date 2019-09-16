@@ -1,0 +1,45 @@
+.contentRender{
+    display: flex;
+}
+.home{
+    background-color: #1E2E38;
+    width: -webkit-fill-available;
+    padding: 1.5%;
+    color: #F2F4F5;
+}
+.heading{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #F2F4F5;
+    margin: 1%;
+}
+.homeContainer{
+    margin-top: 2%;
+}
+.containers{
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+    padding:3%;
+    width: 100%;
+}
+.containerOne{
+    border: 3px solid #467EF3;
+}
+.containerTwo{
+    border: 3px solid #47C490;
+}
+.containerThree{
+    border: 3px solid #5C46E5;
+}
+.containerFour{
+    border: 3px solid #C7444A;
+}
+.value{
+    text-align: right;
+    font-weight: bold;
+}
+.chart{
+    background-color: transparent;
+    margin-top: 5%;
+}

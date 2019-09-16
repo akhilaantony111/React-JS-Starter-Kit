@@ -1,0 +1,31 @@
+.sideBar {
+    width: 15%;
+    height: 92.3vh;
+    background: #1A2027;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1em;
+}
+.link {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    padding: 18px;
+}
+.activeSideBar {
+    color: #4DA2AC;
+    font-size: 1.1em;
+    text-decoration: none;
+    display: flex;
+    padding: 18px;
+
+}
+.sidebarIcon{
+    margin-right: 10%;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}

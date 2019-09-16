@@ -1,0 +1,11 @@
+.profile{
+    background-color: #1E2E38;
+    width: -webkit-fill-available;
+    padding: 1.5%;
+    color: #F2F4F5;
+}
+@media(max-width: 991px){
+    .profile{
+        height: 95vh;
+    }
+}

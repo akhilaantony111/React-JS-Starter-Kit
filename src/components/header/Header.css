@@ -1,0 +1,116 @@
+.header{
+    width: -webkit-fill-available;
+    background-color: #1A2027;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    padding: 1vh;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.headerTitle{
+    color: white;
+    align-self: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.subHeader{
+    justify-content: space-between
+}
+.headerLeft{
+    display: flex;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    align-self: center;
+}
+.headerRight{
+    display: flex;
+    justify-content: flex-end
+}
+.logoutButton{
+    align-self: center;
+    color: #184037;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.logout{
+    display: flex;
+    align-items: center;
+}
+.logoutIcon{
+    color: white;
+    font-size: 1.3em;
+    padding-right: 30%;
+}
+.sidebarMobile{
+    position: absolute;
+    background-color: #1A2027;
+    width: 50%;
+    left: -50%;
+    top: 0;
+    height: 100vh;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.6s;
+
+}
+.animation{
+    left: 0;
+    transition: all ease 0.6s;
+}
+.username{
+    color: #ffffff;
+    font-size: 1em;
+    padding-top: 1.5vh;
+
+}
+.sideHeader{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    padding: 1vh;
+}
+.logoMobile{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    align-self: center;
+}
+.logoutPrompt{
+    background: white;
+    margin-top: 7%;
+    position: absolute;
+    BORDER-RADIUS: 10px;
+    padding: 1%;
+}
+
+.innerModal p:hover {
+    cursor: pointer;
+}
+.innerModal p {
+    border: 1px solid;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    border-radius: 7%;
+}
+.customModal{
+    background-color: #4DA2AC;
+    color: white;
+    font-weight: bold;
+}
+@media(max-width:991px){ /* Only for mobile devices */
+    
+    .subHeader{
+        justify-content: normal
+    }
+    .modalContent, p{
+        font-size: 12px;
+    }
+}
+    
+
